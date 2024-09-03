@@ -40,5 +40,3 @@ if __name__ == '__main__':
         elif action == 'S':
             print("The car's average speed was {} kph".format(my_car.average_speed()))
         my_car.step()
-git diff > some-changes.patch
-git apply /path/to/some-changes.patch
